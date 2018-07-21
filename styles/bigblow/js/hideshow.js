@@ -17,6 +17,9 @@
 // Version: 20140912.1722
 
 // var HS_COLLAPSIBLE_HEADERS = $('h3, h4, h5'); // collapsible headers
+if (typeof HS_COLLAPSIBLE_HEADERS_MAX === 'undefined' ) {
+    var HS_COLLAPSIBLE_HEADERS_MAX = 5;
+}
 
 if (typeof HS_STARTUP_FOLDED === 'undefined') {
     var HS_STARTUP_FOLDED = false;      // Show just the overview, or show all.
@@ -132,7 +135,7 @@ function hsCollapseAllVisible() {
 
 // Add click events to H3/H4/H5 headers which have contents.
 function hsInit() {
-    for (var i = 3; i <= 5; i++) {
+    for (var i = 3; i <= HS_COLLAPSIBLE_HEADERS_MAX; i++) {
         $('#content .outline-' + i).each(function() {
             var header = $(this).children(':header');
             if (header.siblings().length > 0) {
