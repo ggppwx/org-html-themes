@@ -147,23 +147,22 @@ h3, h4, h5, h6 {
 h3 {
     border-bottom: 1px solid #B5DAF1;
     font-size: 16px;
-    margin-left: 25px;
 }
 
 h4 {
     border-bottom: 1px dotted #C9E3F5;
     font-size: 14px;
-    margin-left: 60px;
+    margin-left: 25px;
 }
 
 h5 {
     font-size: 1em;
-    margin-left: 87px;
+    margin-left: 50px;
 }
 
 h6 {
     font-size: 1em;
-    margin-left: 100px;
+    margin-left: 75px;
 }
 
 .DONEheader {
