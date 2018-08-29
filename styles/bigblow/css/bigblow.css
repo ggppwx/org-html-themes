@@ -152,17 +152,17 @@ h3 {
 h4 {
     border-bottom: 1px dotted #C9E3F5;
     font-size: 14px;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 
 h5 {
     font-size: 1em;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 h6 {
     font-size: 1em;
-    margin-left: 75px;
+    margin-left: 30px;
 }
 
 .DONEheader {
@@ -181,7 +181,7 @@ h6 {
 .outline-text-2, .outline-text-3, .outline-text-4, .outline-text-5,
 .outline-3 > ul, /* for HTML export of Beamer slides */
 .outline-4 > ol, #text-footnotes {
-    margin-left: 60px;
+    margin-left: 10px;
 }
 
 li > .outline-text-5 {
@@ -189,7 +189,7 @@ li > .outline-text-5 {
 }
 
 ul, ol {
-    padding-left: 1.5em;
+    padding-left: 2em;
 }
 
 dt {
